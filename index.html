@@ -35,7 +35,7 @@ $(document).ready(function(){
 $(function () {
     $(window).scroll(function () {
         var currentScrollTop = $(window).scrollTop();
-        $('#blackOverlay').css('opacity',1-(currentScrollTop/$('#blackOverlay').height()));
+        $('\#blackOverlay').css('opacity',1-(currentScrollTop/$('\#blackOverlay').height()));
 
     });
 });
